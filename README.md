@@ -1,2 +1,2 @@
 # RFID-Based-Access-Control-System
-An RFID-based door access system that unlocks with a valid card and provides visual and audio feedback using LEDs, a buzzer, an LCD, and a servo — read the README file for more details.
+This Arduino project is an RFID-based access control system that uses an MFRC522 reader to scan RFID cards and verify access. When a valid card is detected, a welcome message appears on a 1602 LCD, a green LED lights up, and a servo motor rotates to unlock a door. If the card is invalid, a red LED and buzzer are activated, and the door remains locked. The system resets after each scan and is suitable for basic security applications such as smart doors, lockers, or entry systems.
